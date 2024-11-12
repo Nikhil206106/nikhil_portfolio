@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikhil's - Web Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css" class="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="responsive.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">  Nikhil's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <a href="#firstSection"><li>Home</a></li>
+                    <a href="#secondSection"><li>About</a></li>
+                    <a href="#thirdSection"><li>Skills</a></li>
+                    <a href="#fourthSection"><li>Projects</a></li>
+                    <a href="#fifthSection"><li>Contact</a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection" id="firstSection" data-aos="fade-right">
+            <div class="leftSection">
+                <div>Hii, My Name is <span class="purple">Nikhil</span></div>
+                <div>and I am a passionate </div>
+                <span id="element">Web Developer</span>
+                
+                <div class="buttons">
+                    <button class="btn"onclick="window.open('./assets/resume.pdf')">
+                        Download Resume
+                    </button>
+                    <button class="btn"><a href="#fifthSection"><li>Contact</a></li></button>
+                </div>
+                    <div id="socials-container">
+                        <img
+                            src="./assets/linkdin.jpeg"
+                            alt="My LinkedIn profile"
+                            class="icon"
+                            onclick="location.href='https://www.linkedin.com'"
+                        />
+                        <img
+                        src="./assets/facebook..jpeg"
+                        alt="My Facebook profile"
+                        class="icon"
+                        onclick="location.href='https://www.facebook.com'"
+                        />
+                        <img 
+                        src="./assets/github.jpeg"
+                        class="icon"
+                         alt="My Git Profile"
+                         onclick="location.href='https://github.com'"
+                         >
+                    </div>
+            </div>
+            <div class="rightSection">
+              
+                <img src="./assets/profile.png" alt="" class="">
+            </div>
+        </section>
+        <hr>
+        <section class="thirdSection" id="secondSection" data-aos="fade-up">
+            <h1><u><b>About Me</b></u></h1>
+            <div class="about">
+                <div class="rightside">
+                    <img src="./assets/avatar.png" alt="">
+                </div>
+                <div class="leftside" >
+                        
+                        <p>Greetings! I'm Nikhil Bhokare, a dynamic web developer with a fervent passion for crafting captivating online experiences. At 19 years young, I am driven by the creative challenge of bringing ideas to life in the digital realm.</p>
+                        <br>
+                        <p>My academic pursuits have revolved around Computer Science, providing me with a strong foundation for my journey into web development. Through hands-on internships, I've honed my expertise in frontend design and development, immersing myself in coding and problem-solving with fervor.</p>
+                        <br>
+                        <p>Delve into my portfolio, and you'll discover a seamless fusion of creativity and technology that defines my work. I invite you to join me on this digital voyage as we explore the boundless possibilities together.</p >
+                        <br>
+                        <p>Let's connect and chart our course for the future! Drop me a line at nikhilbhokare01@gmail.com, and let's embark on our next digital adventure together.</p>
+                    </div>
+
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection" id="thirdSection" >
+            <h1><u><b>Skills</b></u></h1>
+            <div class="skill-bars">
+
+                <div class="bar">
+                  <div class="info" data-aos="fade-right">
+                    <span>HTML</span>
+                  </div>
+                  <div class="progress-line html">
+                    <span></span>
+                  </div>
+                </div>
+              
+                <div class="bar">
+                  <div class="info" data-aos="fade-right">
+                    <span>CSS</span>
+                  </div>
+                  <div class="progress-line css">
+                    <span></span>
+                  </div>
+                </div>
+              
+                <div class="bar">
+                  <div class="info"data-aos="fade-right">
+                    <span>JS</span>
+                  </div>
+                  <div class="progress-line js">
+                    <span></span>
+                  </div>
+                </div>
+
+                <div class="bar">
+                    <div class="info"data-aos="fade-right">
+                      <span>PHP</span>
+                    </div>
+                    <div class="progress-line php">
+                      <span></span>
+                    </div>
+                  </div>
+              
+                <div class="bar">
+                  <div class="info"data-aos="fade-right">
+                    <span>PYTHON</span>
+                  </div>
+                  <div class="progress-line python">
+                    <span></span>
+                  </div>
+                </div>
+
+                <div class="bar">
+                    <div class="info"data-aos="fade-right">
+                      <span>JAVA</span>
+                    </div>
+                    <div class="progress-line java">
+                      <span></span>
+                    </div>
+                  </div>
+
+                 
+              
+              </div>
+ 
+        </section>
+        <hr>
+        <section class="fourthSection" id="fourthSection" data-aos="fade-right" >
+            <h1><u><b>My Projects</b></u></h1>
+            <div class="container">
+                    <div class="image1">
+                        <div class="grid-item">
+                            <img src="./assets/project-img-1.jpeg" alt="" class="imgs">
+                        </div>
+                    </div>
+                    <div class="image2">
+                        <div class="grid-item">
+                            <img src="./assets/project-img-2.jpeg" alt="" class="imgs">
+                        </div>
+                    </div>
+                    <div class="image3">
+                        <div class="grid-item">
+                            <img src="./assets/project-img-8.jpg" alt="" class="imgs">
+                        </div>
+    
+                    </div>
+                    <div class="image4">
+                        <div class="grid-item">
+                            <img src="./assets/project-img-4.jpg" alt="" class="imgs">
+                        </div>
+    
+                    </div>
+                    <div class="image5">
+                        <div class="grid-item">
+                            <img src="./assets/project-img-5.png" alt="" class="imgs">
+                        </div>
+    
+                    </div>
+                    <div class="image6">
+                        <div class="grid-item">
+                            <img src="./assets/project-img-6.jpg" alt="" class="imgs">
+                        </div>
+    
+                    </div>
+                    <div class="image5">
+                        <div class="grid-item">
+                            <img src="./assets/project-img-7.jpg" alt="" class="imgs">
+                        </div>
+    
+                    </div>
+                    <div class="image5">
+                        <div class="grid-item">
+                            <img src="./assets/project-img-8.webp" alt="" class="imgs">
+                        </div>
+    
+                    </div> 
+            </div>
+        </section>
+        <hr>
+        <section class="fifthSection" id="fifthSection"data-aos="fade-right"> 
+            <h1><b><u>Contact Me</u></b></h1>
+            <div class="contact-form">
+                <form action="#" method="post">
+                  <label for="name">Name:</label>
+                  <input type="text" id="name" name="name" required>
+            
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" required>
+            
+                  <label for="phone">Phone:</label>
+                  <input type="number" id="phine" name="phone" required>
+            
+                  <label for="message">Message:</label>
+                  <textarea id="message" name="message" rows="4" maxlength="2" required></textarea>
+            
+                  <button type="submit">Submit</button>
+                </form>
+              </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                    <h3>Nikhil's Portfolio</h3>
+                    <img src="./assets/photo.png" alt="" class="">
+            </div>
+            <div class="footer-second">
+                <h3 class = "footer-title">Links</h3>
+                <ul>
+                    <a href="#firstSection"><li>Home</a></li>
+                    <a href="#secondSection"><li>About</a></li>
+                    <a href="#secondSection"><li>Skills</a></li>
+                    <a href="#fourthSection"><li>Projects</a></li>
+                    <a href="#fifthSection"><li>Contact</a></li>
+
+                </ul>
+            </div>
+            <div class="footer-third">
+                <h3 class = "footer-title">More</h3>
+                <ul>
+                    <a href=""><li>Web Design</a></li>
+                    <a href=""><li> Web Development</a></li>
+                    <a href=""><li>Graphics Design</a></li>
+                    <a href=""><li>Java Development</a></li>
+                    <a href=""><li>Python Development</a></li>
+
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <h3 class = "footer-title">have a question?</h3>
+                <ul>
+                    <li>Ask Me Here:</li>
+                    <li>nikhilbhokare01@gmail.com</li>
+
+                </ul>
+            </div>
+        </div>
+    <div class="footer-rights">
+        Copyright &#169 Nikhil's Portfolio.com | All Rights Reserved
+    </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    
+
+</body>
+</html>
